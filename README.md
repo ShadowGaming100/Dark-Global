@@ -1,5 +1,11 @@
 # Dark Global
 
+# Things must be done
+Create bot client
+Create few handlers
+Create few events
+Create few commands
+
 # Credits
 
 [MGalaCyber/Discord.js-v13-Command-Handler-Template](https://github.com/MGalaCyber/Discord.js-v13-Command-Handler-Template)
