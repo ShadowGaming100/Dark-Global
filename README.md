@@ -2,7 +2,6 @@
 
 <div align="center">
   
-  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ShadowGaming100/Dark-Global?style=for-the-badge)
   ![GitHub all releases](https://img.shields.io/github/downloads/ShadowGaming100/Dark-Global/total?style=for-the-badge)
   ![GitHub top language](https://img.shields.io/github/languages/top/ShadowGaming100/Dark-Global?logo=javascript&style=for-the-badge)
   ![GitHub forks](https://img.shields.io/github/forks/ShadowGaming100/Dark-Global?logo=github&style=for-the-badge)
