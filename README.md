@@ -19,6 +19,10 @@
 
 - [Node.js 16+](https://nodejs.org/en/download/)
 
+# Dark Global
+### I suggest downloading the template handler in the [Release's](https://github.com/ShadpwGaming100/Dark-Global/releases/latest) column, to avoid bugs
+### I suggest read wiki the template handler in the [Wiki's](https://github.com/ShadowGing100/Dark-Global/wiki) for start configuration the handler
+
 ## Tasks
 
 | Task           | Current Status | Finished | 
