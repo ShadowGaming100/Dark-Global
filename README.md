@@ -2,8 +2,11 @@
 
 # Things must be done
 Create bot client
+
 Create few handlers
+
 Create few events
+
 Create few commands
 
 # Credits
