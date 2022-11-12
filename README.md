@@ -1,4 +1,4 @@
-# DarkGlobal
+# Dark Global
 
 # Credits
 
