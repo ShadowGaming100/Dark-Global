@@ -9,8 +9,8 @@
     </a>
     <a href="https://github.com/ShadowGaming100/Dark-Global/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ShadowGaming100/Dark-Global?color=0088ff" />
-<a target="_blank" href="https://github.com/ShadowGaming100/Dark-Global"><img src="https://img.shields.io/github/stars/ShadowGaming100/Dark-Global" /> 
-<a target="_blank" href="https://github.com/ShadowGaming100/Dark-Global"><img src="https://img.shields.io/github/last-commit/ShadowGaming100/Dark-Global" /></a>
+    <a target="_blank" href="https://github.com/ShadowGaming100/Dark-Global"><img src="https://img.shields.io/github/stars/ShadowGaming100/Dark-Global" /> 
+    <a target="_blank" href="https://github.com/ShadowGaming100/Dark-Global"><img src="https://img.shields.io/github/last-commit/ShadowGaming100/Dark-Global" />      </a>
 </p>
 
 ## 🚧 | Prerequisites
