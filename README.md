@@ -1,6 +1,10 @@
-# Dark Global
+## Dark Global
 
-Few codes are taken from my old bots.
+## 🚧 | Prerequisites
+
+- [Node.js 16+](https://nodejs.org/en/download/)
+
+## Tasks
 
 | Task           | Current Status | Finished | 
 |----------------|----------------|----------|
