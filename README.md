@@ -1,5 +1,9 @@
 ## Dark Global
 
+<a target="_blank" href="https://github.com/louislam/uptime-kuma">
+<img src="https://img.shields.io/github/stars/ShadowGaming100/Dark-Global"/></a> 
+</a> <a target="_blank" href="https://github.com/ShadowGaming100/Dark-Global"><img src="https://img.shields.io/github/last-commit/ShadowGaming100/Dark-Global" /></a>
+
 ## 🚧 | Prerequisites
 
 - [Node.js 16+](https://nodejs.org/en/download/)
