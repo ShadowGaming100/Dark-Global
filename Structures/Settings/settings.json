@@ -1,2 +1,10 @@
 {
+"Application": {
+  "token": "",
+  "client_id": "",
+  "client_secret": ""
+},
+"Bot": {
+  "prefix": ""
+}
 }

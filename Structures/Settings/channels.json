@@ -1,3 +1,17 @@
 {
+"Channels": {
+  "Logs": "",
+  "Votes": "", 
+  "Error": "",
+  "Report": "",
+  "Feedback": ""
   
+},
+"Webhook": {
+  "Logs_Url": "",
+  "Votes_Url": "",
+  "Error_Url": "",
+  "Report_Url": "",
+  "Feedback_Url": ""
+}
 }
