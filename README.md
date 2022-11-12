@@ -1,17 +1,20 @@
 ## Dark Global
 
-  <p align="center">
-    <a href="https://github.com/ShadowGaming100/Dark-Global/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ShadowGaming100/Dark-Global" />
-    </a>
-    <a href="https://github.com/ShadowGaming100/Dark-Global/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/ShadowGaming100/Dark-Global?color=0088ff" />
-    </a>
-    <a href="https://github.com/ShadowGaming100/Dark-Global/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ShadowGaming100/Dark-Global?color=0088ff" />
-    <a target="_blank" href="https://github.com/ShadowGaming100/Dark-Global"><img src="https://img.shields.io/github/stars/ShadowGaming100/Dark-Global" /> 
-    <a target="_blank" href="https://github.com/ShadowGaming100/Dark-Global"><img src="https://img.shields.io/github/last-commit/ShadowGaming100/Dark-Global" />      </a>
-</p>
+<div align="center">
+  
+  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ShadowGaming100/Dark-Global?style=for-the-badge)
+  ![GitHub all releases](https://img.shields.io/github/downloads/ShadowGaming100/Dark-Global/total?style=for-the-badge)
+  ![Discord]()
+  ![GitHub top language](https://img.shields.io/github/languages/top/ShadowGaming100/Dark-Global?logo=javascript&style=for-the-badge)
+  ![GitHub forks](https://img.shields.io/github/forks/ShadowGaming100/Dark-Global?logo=github&style=for-the-badge)
+  ![GitHub contributors](https://img.shields.io/github/contributors/ShadowGaming100/Dark-Global?logo=github&style=for-the-badge)
+  ![GitHub issues](https://img.shields.io/github/issues/ShadowGaming100/Dark-Global?logo=github&style=for-the-badge)
+  ![GitHub pull requests](https://img.shields.io/github/issues-pr/ShadowGaming100/Dark-Global?logo=github&style=for-the-badge)
+  ![Watching](https://img.shields.io/github/watchers/ShadowGaming100/Dark-Global?style=for-the-badge)
+  ![Stars](https://img.shields.io/github/stars/ShadowGaming100/Dark-Global?style=for-the-badge)
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ShadowGaming100/Dark-Global?style=for-the-badge)
+  
+</div>
 
 ## 🚧 | Prerequisites
 
@@ -26,10 +29,10 @@
 | Add handler        | in progress      |[x]|
 | Add basic commands | in progress      |[x]|
 
-<!-- # Credits
+# Credits
 
 [MGalaCyber/Discord.js-v13-Command-Handler-Template](https://github.com/MGalaCyber/Discord.js-v13-Command-Handler-Template)
-
+<!--
 [MGalaCyber/Discord.js-v14-Command-Handler-Template](https://github.com/MGalaCyber/Discord.js-v14-Command-Handler-Template)
 
 [BlobbyDev/DoggoBot](https://github.com/BlobbyDev/DoggoBot)
