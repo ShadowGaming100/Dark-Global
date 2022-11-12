@@ -1,8 +1,6 @@
 # Dark Global
 
-# Things must be done
-Create bot client
-
+Few codes are taken from my old bots.
 
 | Task           | Current Status | Finished | 
 |----------------|----------------|----------|
