@@ -26,10 +26,11 @@
 
 | Task           | Current Status | Finished | 
 |----------------|----------------|----------|
-| Make Bot Alive |     in progress      |[x]|
-| Add events         | in progress      |[x]|
-| Add handler        | in progress      |[x]|
-| Add basic commands | in progress      |[x]|
+| Make Bot Alive |     not started      |[x]|
+| Add events         | not started      |[x]|
+| Add handler        | not started      |[x]|
+| Add basic commands | not started      |[x]|
+| adding database | in progress | [x] |
 
 # Credits
 
