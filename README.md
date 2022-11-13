@@ -17,6 +17,8 @@
 ## 🚧 | Prerequisites
 
 - [Node.js 16+](https://nodejs.org/en/download/)
+- [Quick.db latest version](https://quickdb.js.org/) (need node 
+- [Node-gyp] 
 
 # Dark Global
 ### I suggest downloading the template handler in the [Release's](https://github.com/ShadpwGaming100/Dark-Global/releases/latest) column, to avoid bugs
