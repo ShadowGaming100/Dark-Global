@@ -30,6 +30,18 @@ That's why I'm asking everyone to join my [Discord Server](https://discord.gg/dc
 
 </details>
 
+## 🤖 Bot Requirements
+
+<details>
+  <summary>Click to expand</summary>
+  **NOTE:** It is suggested to use the [Sharded (&Clustered) version], if you plan on using it for a VERIFIED BOT (on more then 2000 Servers!) (Not available)
+ 
+  1. Download the [Source Code](https://github.com/ShadowGaming100/Dark-Global/releases/latest)
+     * Either by: `git clone https://github.com/ShadowGaming100/Dark-Global`
+     * Or by downloading it as a zip from the releases tab or a branch.
+  
+</details>
+
 ## 🚧 | Prerequisites
 
 - [Node.js 16+](https://nodejs.org/en/download/)
