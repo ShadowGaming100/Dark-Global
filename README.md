@@ -17,8 +17,9 @@
 ## 🚧 | Prerequisites
 
 - [Node.js 16+](https://nodejs.org/en/download/)
-- [Quick.db latest version](https://quickdb.js.org/) (need node 
-- [Node-gyp] 
+- [Quick.db](https://quickdb.js.org/)
+- [Node-gyp](https://github.com/nodejs/node-gyp)
+- [Better-splite3 node v19 not supported](https://github.com/WiseLibs/better-sqlite3)
 
 # Dark Global
 ### I suggest downloading the template handler in the [Release's](https://github.com/ShadpwGaming100/Dark-Global/releases/latest) column, to avoid bugs
