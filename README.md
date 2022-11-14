@@ -1,7 +1,5 @@
-## Dark Global
-
 <div align="center">
-  
+
   ![GitHub all releases](https://img.shields.io/github/downloads/ShadowGaming100/Dark-Global/total?style=for-the-badge)
   ![GitHub top language](https://img.shields.io/github/languages/top/ShadowGaming100/Dark-Global?logo=javascript&style=for-the-badge)
   ![GitHub forks](https://img.shields.io/github/forks/ShadowGaming100/Dark-Global?logo=github&style=for-the-badge)
@@ -11,8 +9,26 @@
   ![Watching](https://img.shields.io/github/watchers/ShadowGaming100/Dark-Global?style=for-the-badge)
   ![Stars](https://img.shields.io/github/stars/ShadowGaming100/Dark-Global?style=for-the-badge)
   ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ShadowGaming100/Dark-Global?style=for-the-badge)
-  
+
 </div>
+
+[**Invite the Public Version of this Bot**]() so you don't need to host it by yourself.
+
+# Important notes and thank ❤️
+First of all, thanks for using this Source Code, it was and is a ton of work to create and maintain it!
+That's why I'm asking everyone to join my [Discord Server](https://discord.gg/dcdev)!
+
+# Installation Guide 🔥
+
+## ✅ Hosting Requirements
+
+<details>
+  <summary>Click to expand</summary>
+
+  * [nodejs](https://nodejs.org) version 16.6 or higher, I recommend the latest STABLE version
+  * [python](https://python.org) version 3.8 or higher, to install the database `enmap` (better-sqlite3) (Node version 19 not supported)
+
+</details>
 
 ## 🚧 | Prerequisites
 
