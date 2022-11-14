@@ -19,7 +19,7 @@
 - [Node.js 16+](https://nodejs.org/en/download/)
 - [Quick.db](https://quickdb.js.org/)
 - [Node-gyp](https://github.com/nodejs/node-gyp)
-- [Better-splite3 node v19 not supported](https://github.com/WiseLibs/better-sqlite3)
+- [Better-splite3](https://github.com/WiseLibs/better-sqlite3) (Node v19 not supported)
 
 # Dark Global
 ### I suggest downloading the template handler in the [Release's](https://github.com/ShadpwGaming100/Dark-Global/releases/latest) column, to avoid bugs
