@@ -26,8 +26,8 @@ That's why I'm asking everyone to join my [Discord Server]()!
   <summary>Click to expand</summary>
 
   * [nodejs](https://nodejs.org) version 16.6 or higher, I recommend the latest STABLE version
-  * [python](https://python.org) version 3.8 or higher, to install the database `enmap` (better-sqlite3) (Node version 19 not supported)
-  * [Node-gyp](https://github.com/nodejs/node-gyp) I recommend the latest STABLE version, to install the database `enmap` (better-sqlite3)
+  * [python](https://python.org) version 3.7 or higher, to install the database `better-sqlite3` (Nodejs version 19 not supported)
+  * [Node-gyp](https://github.com/nodejs/node-gyp) I recommend the latest STABLE version, to install the database `better-sqlite3`
 
 </details>
 
