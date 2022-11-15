@@ -50,8 +50,8 @@ That's why I'm asking everyone to join my [Discord Server]()!
 - [Better-splite3](https://github.com/WiseLibs/better-sqlite3) (Node v19 not supported)
 
 # Dark Global
-### I suggest downloading the template handler in the [Release's](https://github.com/ShadpwGaming100/Dark-Global/releases/latest) column, to avoid bugs
-### I suggest read wiki the template handler in the [Wiki's](https://github.com/ShadowGing100/Dark-Global/wiki) for start configuration the handler
+### I suggest downloading the template handler in the [Release's](https://github.com/ShadowGaming100/Dark-Global/releases/latest) column, to avoid bugs
+### I suggest read wiki the template handler in the [Wiki's](https://github.com/ShadowGaming100/Dark-Global/wiki) for start configuration the handler
 
 ## Tasks
 
