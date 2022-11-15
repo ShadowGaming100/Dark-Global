@@ -16,7 +16,7 @@
 
 # Important notes and thank ❤️
 First of all, thanks for using this Source Code, it was and is a ton of work to create and maintain it!
-That's why I'm asking everyone to join my [Discord Server](https://discord.gg/dcdev)!
+That's why I'm asking everyone to join my [Discord Server]()!
 
 # Installation Guide 🔥
 
@@ -27,6 +27,7 @@ That's why I'm asking everyone to join my [Discord Server](https://discord.gg/dc
 
   * [nodejs](https://nodejs.org) version 16.6 or higher, I recommend the latest STABLE version
   * [python](https://python.org) version 3.8 or higher, to install the database `enmap` (better-sqlite3) (Node version 19 not supported)
+  * [Node-gyp](https://github.com/nodejs/node-gyp) I recommend the latest STABLE version, to install the database `enmap` (better-sqlite3)
 
 </details>
 
@@ -46,7 +47,6 @@ That's why I'm asking everyone to join my [Discord Server](https://discord.gg/dc
 
 - [Node.js 16+](https://nodejs.org/en/download/)
 - [Quick.db](https://quickdb.js.org/)
-- [Node-gyp](https://github.com/nodejs/node-gyp)
 - [Better-splite3](https://github.com/WiseLibs/better-sqlite3) (Node v19 not supported)
 
 # Dark Global
