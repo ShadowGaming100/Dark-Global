@@ -1,10 +1,12 @@
 //=====================================| Import the Module |=====================================\\
 
 require('colors');
-
+const settings = require(`${process.cwd()}/Structures/Settings/settings.json`)
 // ========================================| Code |======================================= \\
 
 module.exports = async (client) => {
+
+    if( `${settings.Handlers.antiCrash}` || process.env.antiCrash === "true"){
 
     process.on('multipleResolves', (type, promise, reason) => {
         console.log(`[MULTIPLE RESOLVES] `.bold.red);
@@ -33,5 +35,5 @@ module.exports = async (client) => {
     // process.on('message', (message) => {
     //     console.log(`[MESSAGE] `.bold.red + `${message}`.yellow);
     // })
-
+    }
 }
