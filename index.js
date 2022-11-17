@@ -8,9 +8,9 @@ require('colors');
 require('ms');
 
 // loading JSON's files
-const connections = require('./Structures/Settings/connections.json')
-const settings = require('./Structures/Settings/settings.json')
-const channels = require('./Structures/Settings/channels.json')
+const connections = (`${process.cwd()}/Structures/Settings/connections.json`)
+const settings = require(`${process.cwd()}/Structures/Settings/settings.json`)
+const channels = require(`${process.cwd()}/Structures/Settings/channels.json`)
 const emoji = require('./Structures/Settings/emoji.json')
 
 // creating/loading database

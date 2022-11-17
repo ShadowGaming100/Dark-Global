@@ -1,8 +1,8 @@
 
  // Import the Module
-
 const { Client, GatewayIntentBits, Partials } = require('discord.js');
-
+// loading jsons
+const settings = require(`${process.cwd()}/Structures/Settings/settings.json`)
 //Code
 
 function clientSettingsObject() {
@@ -10,7 +10,7 @@ function clientSettingsObject() {
         shards: 'auto',
         allowedMentions: {
             parse: ['roles', 'users', 'everyone'],
-            repliedUser: false,
+            repliedUser: settings.Bot.repliedUser,
         },
         failIfNotExists: false,
         partials: [

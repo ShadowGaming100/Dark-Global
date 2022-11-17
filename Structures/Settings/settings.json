@@ -5,6 +5,7 @@
   "client_secret": ""
 },
 "Bot": {
-  "prefix": ""
+  "prefix": "",
+  "repliedUser": true
 }
 }
