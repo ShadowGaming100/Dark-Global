@@ -1,3 +1,5 @@
+//CODE
+
 module.exports = {
 	formatBytes: function(a, b) {
 		if (a == 0) return '0 Bytes';

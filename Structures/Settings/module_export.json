@@ -1,0 +1,20 @@
+{
+"Maintenance": {
+  "help": false ,
+  "uptime": false ,
+  "botinfo": false ,
+  "serverinfo": false ,
+  "avatar": false ,
+  "roles": false ,
+  "roleinfo": false ,
+  "userinfo": false ,
+  "ping": false ,
+  "support": false  
+},
+"Toggle": {
+  
+},
+"Premium": {
+  
+} 
+}

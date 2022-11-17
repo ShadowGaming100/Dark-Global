@@ -1,3 +1,5 @@
+// CODE
+
 module.export = {
 	clean: function(string) {
 		if (typeof text === 'string') {

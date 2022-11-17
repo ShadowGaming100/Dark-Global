@@ -1,9 +1,12 @@
-
  // Import the Module
+
 const { Client, GatewayIntentBits, Partials } = require('discord.js');
-// loading jsons
+
+// LOADING REQUIED FILES
+
 const settings = require(`${process.cwd()}/Structures/Settings/settings.json`)
-//Code
+
+// CODE
 
 function clientSettingsObject() {
     return {

@@ -1,4 +1,5 @@
-//Import the Module
+// Import the Module
+
 const { MessageEmbed, MessageActionRow, MessageButton, MessageSelectmenu, MessageAttachment, Interaction, Discord, InteractionCreate, Client, Collection } = require('discord.js');
 const { QuickDB } = require("quick.db");
 const clientSettingsObject = require(`${process.cwd()}/Structures/Functions/clientSettingsObject.js`);
@@ -7,19 +8,40 @@ require('dotenv').config();
 require('colors');
 require('ms');
 
-// loading JSON's files
+// LOADING.JSON`S FILES
+
 const connections = (`${process.cwd()}/Structures/Settings/connections.json`)
 const settings = require(`${process.cwd()}/Structures/Settings/settings.json`)
 const channels = require(`${process.cwd()}/Structures/Settings/channels.json`)
 const emoji = require('./Structures/Settings/emoji.json')
+const slashCommands = require('./Structures/Settings/slashCommands.json')
+const module_export = require('./Structures/Settings/module_export.json')
 
-// creating/loading database
+// COLLECTIONS
+
+client.slashCommands = new Collection();
+client.categories = new Collection();
+client.cooldowns = new Collection();
+client.commands = new Collection();
+client.buttons = new Collection();
+client.aliases = new Collection();
+client.events = new Collection();
+
+// HANDLERS 
+
+['antiCrash.js', `events.js`, `messageCommands`]
+.forEach(handler => {
+    require(`${process.cwd()}/Structures/Handlers/${handler}`)(client);
+});
+
+// CREATING OR LOADING DATABASE
+
  const db = new QuickDB({ filePath: "Database/settings.sqlite"});
 
-//check if in connections hosting is set to true
+// CHECKING IF SET TRUE IN connections.json IN hosting
     if( `${connections.hosting}` || process.env.hosting === "true"){
 
-//if set to true it create a server 
+// CREATING SERVER IF SET TO TRUE IN connections.json IN hosting
 const express = require('express');
 const app = express();
 
@@ -32,4 +54,5 @@ app.listen(3000, () => {
 });
     }
 
-//login to bot
+// LOGIN TO BOT
+client.login(process.env.TOKEN || settings.Application.token);
