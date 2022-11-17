@@ -25,7 +25,7 @@ function clientSettingsObject() {
             Partials.ThreadMember,
             Partials.User
         ],
-        // intents: 32767,
+         intents: 32767,
         intents: [
             GatewayIntentBits.DirectMessageReactions,
             GatewayIntentBits.DirectMessageTyping,

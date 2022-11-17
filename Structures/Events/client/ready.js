@@ -1,8 +1,4 @@
-
-module.exports = async (client) => {
-  try{
-      console.log("hi")
-  } catch (e){
-    console.log(String(e.stack).grey.italic.dim.bgRed)
-  }
+module.exports = (client, ready) => {
+    
+    console.log(`${client.user.tag} is up and ready to go!`)
 }
