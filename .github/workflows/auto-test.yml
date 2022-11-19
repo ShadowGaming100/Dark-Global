@@ -25,4 +25,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm rebuild
-      - run: node index.js 
+      - run: node test.js 
