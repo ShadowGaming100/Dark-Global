@@ -56,8 +56,3 @@ app.get('/', function(req, res) {
 app.listen(port);
 console.log(`Server started at ${port}`);
     }
-
-// LOGIN TO BOT
-
-client.login(process.env.Token || settings.Application.token);
- 
