@@ -37,22 +37,3 @@ client.events = new Collection();
 // CREATING OR LOADING DATABASE
 
  const db = new QuickDB({ filePath: "Database/settings.sqlite"});
-
-// CHECKING IF SET TRUE IN connections.json IN hosting
-    if( `${connections.hosting}` || process.env.hosting === "true"){
-
-// CREATING SERVER IF SET TO TRUE IN connections.json IN hosting
-const express = require('express');
-const path = require('path');
-
-const app = express();
-const port = process.env.PORT || connections.port || 80;
-
-// sendFile will go here
-app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '/Website/index.html'));
-});
-
-app.listen(port);
-console.log(`Server started at ${port}`);
-    }
