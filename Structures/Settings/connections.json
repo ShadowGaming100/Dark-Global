@@ -1,4 +1,4 @@
 {
-  "hosting": true,
+  "hosting": false,
   "port": "80"
 }
