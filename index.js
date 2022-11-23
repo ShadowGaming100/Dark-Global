@@ -33,7 +33,6 @@ client.events = new Collection();
 .forEach(handler => {
     require(`${process.cwd()}/Structures/Handlers/${handler}`)(client);
 });
-
 // CREATING OR LOADING DATABASE
 
  const db = new QuickDB({ filePath: "Database/settings.sqlite"});
