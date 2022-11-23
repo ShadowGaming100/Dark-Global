@@ -37,3 +37,4 @@ client.events = new Collection();
 // CREATING OR LOADING DATABASE
 
  const db = new QuickDB({ filePath: "Database/settings.sqlite"});
+
