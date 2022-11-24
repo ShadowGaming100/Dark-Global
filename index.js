@@ -37,6 +37,7 @@ client.events = new Collection();
 
  const db = new QuickDB({ filePath: "Database/settings.sqlite"});
 
+client.on("ready", () => {
 // CHECKING IF SET TRUE IN connections.json IN hosting
     if( `${connections.hosting}` || process.env.hosting === "true"){
 
@@ -55,6 +56,7 @@ app.get('/', function(req, res) {
 app.listen(port);
 console.log(`Server started at ${port}`);
     }
+})
 
 // LOGIN TO BOT
 

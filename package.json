@@ -1,11 +1,12 @@
 {
   "name": "dark-global",
-  "version": "0.1.0-alpha",
+  "version": "0.2.0-alpha",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "kill": "kill 1"
   },
   "keywords": [],
   "author": "Shadow Gaming",
