@@ -13,9 +13,10 @@ require('ms');
 const connections = (`${process.cwd()}/Structures/Settings/connections.json`)
 const settings = require(`${process.cwd()}/Structures/Settings/settings.json`)
 const channels = require(`${process.cwd()}/Structures/Settings/channels.json`)
-const emoji = require('./Structures/Settings/emoji.json')
-const slashCommands = require('./Structures/Settings/slashCommands.json')
-const module_export = require('./Structures/Settings/module_export.json')
+const emoji = require(`${process.cwd()}/Structures/Settings/emoji.json`)
+const slashCommands = require(`${process.cwd()}/Structures/Settings/slashCommands.json`)
+const module_export = require(`${process.cwd()}/Structures/Settings/module_export.json`)
+const Embed = require(`${process.cwd()}/Structures/Settings/embed.json`)
 
 // COLLECTIONS
 
@@ -33,8 +34,27 @@ client.events = new Collection();
 .forEach(handler => {
     require(`${process.cwd()}/Structures/Handlers/${handler}`)(client);
 });
-
 // CREATING OR LOADING DATABASE
 
  const db = new QuickDB({ filePath: "Database/settings.sqlite"});
 
+client.on("ready", () => {
+// CHECKING IF SET TRUE IN connections.json IN hosting
+    if( `${connections.hosting}` || process.env.hosting === "true"){
+
+// CREATING SERVER IF SET TO TRUE IN connections.json IN hosting
+const express = require('express');
+const path = require('path');
+
+const app = express();
+const port = process.env.PORT || connections.port || 80;
+
+// sendFile will go here
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname, '/Website/index.html'));
+});
+
+app.listen(port);
+console.log(`Server started at ${port}`);
+    }
+})

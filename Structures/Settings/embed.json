@@ -1,0 +1,10 @@
+{
+  "color": "#11FF28",
+  "successcolor": "#00FF00",
+  "stanbycolor": "#FFFFFF",
+  "wrongcolor": "#FF0000",
+
+  "footertext": "Your Application Name | powered by ShadowGaming100",
+  "footericon": "",
+  "authoricon": ""
+}

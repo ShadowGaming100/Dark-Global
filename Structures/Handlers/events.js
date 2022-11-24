@@ -27,7 +27,7 @@ module.exports = async (client) => {
                 }
             }
         }
-        await ["client", "guild"].forEach(e => load_dir(e));
+        await ["client", "guild", "interaction"].forEach(e => load_dir(e));
         console.log(`${amount} Events Loaded`.brightGreen);
         try {
             const stringlength2 = 69;
