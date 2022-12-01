@@ -6,7 +6,8 @@
 },
 "Bot": {
   "prefix": "!",
-  "repliedUser": true
+  "repliedUser": true,
+  "owners": [""]
 },
 "Handlers": {
   "antiCrash": ""
