@@ -5,5 +5,3 @@ const emoji = require(`${process.cwd()}/Structures/Settings/emoji.json`)
 const slashCommands = require(`${process.cwd()}/Structures/Settings/slashCommands.json`)
 const module_export = require(`${process.cwd()}/Structures/Settings/module_export.json`)
 const ee = require(`${process.cwd()}/Structures/Settings/embed.json`)
-const { onCoolDown } = require(`${process.cwd()}/Structures/Functions/onCooldown.js`);
-const {replacemsg } = require(`${process.cwd()}/Structures/Functions/replaceMessage.js`);
