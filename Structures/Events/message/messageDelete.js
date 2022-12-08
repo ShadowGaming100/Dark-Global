@@ -5,3 +5,6 @@ const emoji = require(`${process.cwd()}/Structures/Settings/emoji.json`)
 const slashCommands = require(`${process.cwd()}/Structures/Settings/slashCommands.json`)
 const module_export = require(`${process.cwd()}/Structures/Settings/module_export.json`)
 const ee = require(`${process.cwd()}/Structures/Settings/embed.json`)
+
+module.exports = (client) => {
+}

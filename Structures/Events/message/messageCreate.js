@@ -7,3 +7,6 @@ const module_export = require(`${process.cwd()}/Structures/Settings/module_expor
 const ee = require(`${process.cwd()}/Structures/Settings/embed.json`)
 const { onCoolDown } = require(`${process.cwd()}/Structures/Functions/onCooldown.js`);
 const {replacemsg } = require(`${process.cwd()}/Structures/Functions/replaceMessage.js`);
+
+module.exports = (client) => {
+}
