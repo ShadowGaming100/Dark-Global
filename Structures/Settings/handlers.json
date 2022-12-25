@@ -1,0 +1,6 @@
+{
+  "antiCrash": "true",
+  "messageCommands": "true",
+  "slashCommands": "true",
+  "mongoDB": "false"
+}

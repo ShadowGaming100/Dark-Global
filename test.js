@@ -1,13 +1,10 @@
 // Import the Module
 
-const { MessageEmbed, MessageActionRow, MessageButton, MessageSelectmenu, MessageAttachment, Interaction, Discord, InteractionCreate, Client, Collection } = require('discord.js');
+const { Client, GatewayIntentBits, Partials, Collection } = require("discord.js");
 const { QuickDB } = require("quick.db");
 const clientSettingsObject = require(`${process.cwd()}/Structures/Functions/clientSettingsObject.js`);
 const client = new Client(clientSettingsObject());
 require('dotenv').config();
-require('colors');
-require('ms');
-
 // LOADING.JSON`S FILES
 
 const connections = (`${process.cwd()}/Structures/Settings/connections.json`)
@@ -17,6 +14,10 @@ const emoji = require(`${process.cwd()}/Structures/Settings/emoji.json`)
 const slashCommands = require(`${process.cwd()}/Structures/Settings/slashCommands.json`)
 const module_export = require(`${process.cwd()}/Structures/Settings/module_export.json`)
 const Embed = require(`${process.cwd()}/Structures/Settings/embed.json`)
+
+/
+//======================< Collection >======================\\
+client.slashCommands = new Collection();
 
 // COLLECTIONS
 

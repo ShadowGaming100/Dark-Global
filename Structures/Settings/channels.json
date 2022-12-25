@@ -8,10 +8,10 @@
   
 },
 "Webhook": {
-  "Logs_Url": "",
-  "Votes_Url": "",
-  "Error_Url": "",
-  "Report_Url": "",
-  "Feedback_Url": ""
+  "Logs": "",
+  "Votes": "",
+  "Error": "",
+  "Report": "",
+  "Feedback": ""
 }
 }

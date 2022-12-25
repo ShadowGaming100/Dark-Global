@@ -8,8 +8,5 @@
   "prefix": "!",
   "repliedUser": true,
   "owners": [""]
-},
-"Handlers": {
-  "antiCrash": ""
 }
 }
