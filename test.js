@@ -13,12 +13,10 @@ const channels = require(`${process.cwd()}/Structures/Settings/channels.json`)
 const emoji = require(`${process.cwd()}/Structures/Settings/emoji.json`)
 const slashCommands = require(`${process.cwd()}/Structures/Settings/slashCommands.json`)
 const module_export = require(`${process.cwd()}/Structures/Settings/module_export.json`)
-const Embed = require(`${process.cwd()}/Structures/Settings/embed.json`)
+const embed = require(`${process.cwd()}/Structures/Settings/embed.json`)
 
 /
 //======================< Collection >======================\\
-client.slashCommands = new Collection();
-
 // COLLECTIONS
 
 client.slashCommands = new Collection();
@@ -39,7 +37,6 @@ client.events = new Collection();
 
  const db = new QuickDB({ filePath: "Database/settings.sqlite"});
 
-client.on("ready", () => {
 // CHECKING IF SET TRUE IN connections.json IN hosting
     if( `${connections.hosting}` || process.env.hosting === "true"){
 
@@ -66,4 +63,3 @@ app.get('/', function(req, res) {
 app.listen(port);
 console.log(`Server started at ${port}`);
     }
-})
